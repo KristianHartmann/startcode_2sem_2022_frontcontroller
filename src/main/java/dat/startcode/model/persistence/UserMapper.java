@@ -22,7 +22,7 @@ public class UserMapper implements IUserMapper
         Logger.getLogger("web").log(Level.INFO, "");
 
         User user = null;
-
+        System.out.println("test");
         String sql = "SELECT * FROM user WHERE username = ? AND password = ?";
 
         try (Connection connection = connectionPool.getConnection())
