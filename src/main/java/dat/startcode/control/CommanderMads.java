@@ -8,6 +8,6 @@ import javax.servlet.http.HttpServletResponse;
 public class CommanderMads extends Command{
     @Override
     String execute(HttpServletRequest request, HttpServletResponse response) throws DatabaseException {
-        return null;
+        return "commanderMads.jsp";
     }
 }
