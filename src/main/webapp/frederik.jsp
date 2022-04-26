@@ -15,6 +15,7 @@
     <jsp:body>
 
         <h1>Her er frederiks side</h1>
+        <p>dette er en ændring</p>
     </jsp:body>
 
 </t:pagetemplate>
